@@ -1,2 +1,4 @@
-marsqing-libinput-three-finger-drag
+src/
+pkg/
+marsqing-libinput-three-finger-drag/
 *.pkg.tar.zst

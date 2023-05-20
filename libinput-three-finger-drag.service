@@ -1,0 +1,11 @@
+[Unit]
+Description=Three-finger-drag support for libinput
+Documentation=https://github.com/pastleo/aur-marsqing-libinput-three-finger-drag https://github.com/marsqing/libinput-three-finger-drag
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'export DISPLAY="${LIBINPUT_THREE_FINGER_DRAG_DISPLAY:-:0}" && /usr/bin/libinput-three-finger-drag "${LIBINPUT_THREE_FINGER_DRAG_ACC:-1.4}"'
+Restart=always
+
+[Install]
+WantedBy=default.target
