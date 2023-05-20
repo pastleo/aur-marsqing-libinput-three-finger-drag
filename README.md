@@ -1,10 +1,11 @@
 # aur-marsqing-libinput-three-finger-drag
-AUR of https://github.com/marsqing/libinput-three-finger-drag
+AUR of https://github.com/marsqing/libinput-three-finger-drag, three-finger-drag feature for Archlinux
 
 ## Installation & Setup
 
 ```
 git clone https://github.com/pastleo/aur-marsqing-libinput-three-finger-drag.git
+cd aur-marsqing-libinput-three-finger-drag
 makepkg -si
 
 usermod -a -G input {user}
